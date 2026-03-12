@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Internship Webpage</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+<h2 class="logo">MySite</h2>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+<div class="hero-content">
+<h1>Welcome to My Web Project</h1>
+<p>This webpage is created using HTML, CSS, and JavaScript.</p>
+<button onclick="showMessage()"><i class="fas fa-mouse-pointer"></i> Explore</button>
+</div>
+</section>
+
+
+<section id="about" class="about">
+<h2>About</h2>
+<div class="glass">
+<p>
+This project is part of my web development internship.
+It demonstrates basic frontend technologies including
+HTML structure, CSS styling, animations, and JavaScript interaction.
+</p>
+</div>
+</section>
+
+
+<section id="features" class="features">
+<h2>Features</h2>
+<div class="feature-container">
+<div class="card glass">
+<h3><i class="fas fa-desktop"></i> Modern UI</h3>
+<p>Clean and professional design.</p>
+</div>
+<div class="card glass">
+<h3><i class="fas fa-mobile-alt"></i> Responsive</h3>
+<p>Works on mobile and desktop.</p>
+</div>
+<div class="card glass">
+<h3><i class="fas fa-lightbulb"></i> Interactive</h3>
+<p>JavaScript adds user interaction.</p>
+</div>
+</div>
+</section>
+
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+<div class="glass">
+<p><i class="fas fa-envelope"></i> Email: example@email.com</p>
+<p><i class="fas fa-phone"></i> Phone: +91 1234567890</p>
+<button onclick="contactAlert()"><i class="fas fa-paper-plane"></i> Send Message</button>
+</div>
+</section>
+
+
+<footer>
+<p>© 2026 My Internship Project</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="animations.js"></script>
+
+</body>
+</html>
